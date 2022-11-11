@@ -103,11 +103,11 @@ h1{
         margin-bottom: 70px;
     }
     .container_photo img{
-        width: 96%;
+        width: 92%;
     }
     .name{
-        font-size: 75px;
-        line-height: 200px;
+        font-size: 70px;
+        line-height: 185px;
     }
     h1{
         font-size: 25px;
@@ -131,10 +131,9 @@ h1{
         margin-bottom: 140px;
     }
     .button{
-        margin-left: 38px;
+        margin-left: 30px;
         padding: 26px 31px 26px 31px;
-        text-align: center;
-        font-size: 35px;
+        font-size: 30px;
     }
     .button::after{
         display: none;
