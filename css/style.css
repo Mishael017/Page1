@@ -1,0 +1,136 @@
+
+
+
+
+
+
+body{
+    background-color: #e8e8e8;
+}
+
+/* Style Button */
+.button{
+    position: relative;
+    width: 200px;
+    height: 45px;
+    box-shadow: 0px 6px 40px 0px 
+    rgba(128,183,179,0.54);
+    background:  rgba(128,183,179,0.54);
+    padding: 17px 55px 17px 30px;
+    border-radius: 30px;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    transition: 300ms ease-in-out;
+}
+.button::after{
+    content: url(../img/shape_2_9.png);
+    position: absolute;
+    right: 20px;
+    top: 6.5px
+}
+.button:hover{
+    opacity: 0.8;
+    color: #e8e8e8;
+    /* background: #273d46; */
+}
+
+/* style for Page */
+
+
+.container{
+    width: 841px;
+    margin: 150px auto;
+}
+.container .name, h1{
+    text-align: center;
+}
+.name{
+    opacity: 0.6;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    color: #273d46;
+}
+h1{
+    /* width: 721px; */
+    font-family: 'Times New Roman';
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 400;
+    color: #273d46;
+    margin-bottom: 77px;
+}
+.container_photo{
+    margin-bottom: 100px;
+}
+.container_photo img{
+    width: 821px;
+    height: auto;
+    border: 6px solid #fff;
+}
+.container_text p{
+    opacity: 0.8;
+    font-family: 'Times New Roman';
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #273d46;
+    margin-bottom: 64px;
+}
+.container_list{
+    margin-bottom: 60px;
+}
+.list_item{
+    position: relative;
+}
+.list_item::before{
+     content: url(../img/check_icon_37.png);
+     position: absolute;
+     left: -30px;
+}
+
+
+
+/* Mobile Style */
+
+@media only screen and (max-width: 924px){
+    .container_photo{
+        margin-left: 50px;
+    }
+    .container_photo img{
+        width: 731px;
+    }
+    .name{
+        font-size: 90px;
+        line-height: 200px;
+    }
+    .container_text p{
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .list{
+        text-align: center;
+    }
+    .list_item::before{
+        left: 27%;
+    }
+    .container_list{
+        margin-bottom: 140px;
+    }
+    .button{
+        margin-left: 194px;
+        padding: 31px 100px 31px 76px;
+        text-align: center;
+        font-size: 35px;
+    }
+    .button::after{
+        display: none;
+    }
+}
