@@ -42,7 +42,7 @@ body{
 
 
 .container{
-    width: 841px;
+    max-width: 841px;
     margin: 150px auto;
 }
 .container .name, h1{
@@ -104,7 +104,7 @@ h1{
         margin-left: 50px;
     }
     .container_photo img{
-        width: 731px;
+        width: 90%;
     }
     .name{
         font-size: 90px;
@@ -125,7 +125,7 @@ h1{
         margin-bottom: 140px;
     }
     .button{
-        margin-left: 194px;
+        margin-left: 115px;
         padding: 31px 100px 31px 76px;
         text-align: center;
         font-size: 35px;
